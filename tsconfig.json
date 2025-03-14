@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": "./.nuxt/tsconfig.json",
+  "compilerOptions": {
+    "types": [
+      "vitest/globals",
+      "naive-ui/volar",
+      "unplugin-info/client"
+    ]
+  }
+}
